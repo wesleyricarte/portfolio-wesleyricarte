@@ -24,6 +24,14 @@ export const Navbar = styled('nav', {
 
 export const LogoTipo = styled(Flex, {
 	alignItems: 'center',
+
+	'& img': {
+		maxWidth: '310px',
+		'@mobile': {
+            maxWidth: '80%',
+            width: '340px',
+		},
+	},
 });
 
 export const LogoTipoText = styled('span', {

@@ -44,7 +44,7 @@ export const Home = (): JSX.Element => {
 								width={'48px'}
 								height={'48px'}
 							/>
-							<Text color="grey4">
+							<Text type="heading4" color="grey4">
 								Bem-vindos! Eu sou o {userData.nameUser}
 							</Text>
 						</Flex>
